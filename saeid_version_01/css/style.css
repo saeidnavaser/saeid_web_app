@@ -1,0 +1,271 @@
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Segoe UI, Lato, sans-serif, fantasy;;
+}
+.page-wrapper{
+    margin: 0 auto;
+    padding: 0;
+    width: 1440px;
+}
+
+/*This is Navbar css code*/
+.main-nav{
+    text-align: right;
+    background-color: white;
+    padding: 2.5em;
+    padding-bottom: 1.1em;
+}
+.main-nav a{
+    background-color: none;
+    text-align: center;
+    font-size: 19px;
+    font-family: sans-serif;
+    color: black;
+    display: inline;
+    text-decoration: none;
+    padding: 16px;
+    position: relative;
+    right: -50px;
+
+}
+.main-nav a:hover{
+    color: #5702FE;
+}
+#ask{
+   color: #5702FE;
+}
+
+#logo{
+    margin: 0;
+    text-align: left;
+    color: #5702FE;
+    text-decoration: none;
+    font-size: 2.6em;
+    font-family: 'Mitr', sans-serif;
+    float: left;
+    position: absolute;
+    top: -2px;
+    left: 25px;
+}
+
+#logo:hover{
+    color: #5702FE;
+}
+
+/*This is my Header*/
+.header{
+    margin: 0 auto;
+    padding: 0;
+    width: 1440px;
+    color: #5702FE;
+}
+#img{
+    width: 90em;
+}
+
+/*This is my section of About-card and photo*/
+.box_1{
+    background-color: #5702FE;
+    float: left;
+    margin-top:1.5em; 
+    margin-bottom:1.5em; 
+    padding: 5.4em;
+    padding-left: 14.5em;
+    padding-right: 14.5em;
+     
+}
+.box_1 h1{
+    font-size: 2.6em;
+    font-family: 'Mitr', sans-serif;
+    color: #00FFA2;
+}
+.box_1 p{
+    font-size: 1.2em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.box_1 img{
+    position: absolute;
+    bottom: 0.5em;
+    left: 11em;
+    color: white;
+}
+.box_1 a{
+    float: right;
+    position: relative;
+    top: 2.5em;
+    left: 9em;
+    color: #00FFA2;
+}
+
+.box_2{
+    background-color: white;
+    float: right;
+    margin-top:1.5em; 
+    margin-bottom:1.5em; 
+}
+
+/*This is my Project*/
+.Projects{
+    margin-top:1.5em; 
+    margin-bottom:1.5em; 
+}
+.Projects h4{
+    font-size: 1.3em;
+    margin-top:1.5em;  
+    color: black;
+    padding: 0;
+}
+.Projects h1{
+    font-size: 2.3em;
+    color: #5702FE;
+    padding: 0;
+}
+/* this is proj-1 */
+.proj_1{
+    background-color: #5702FE;
+    float: left;
+    margin-bottom:1.5em; 
+    padding: 2.4em;
+    padding-left: 2em;
+    padding-right: 2em;
+     
+}
+.proj_1 h1{
+    font-size: 2.6em;
+    font-family: 'Mitr', sans-serif;
+    color: #00FFA2;
+}
+.proj_1 p{
+    font-size: 1.2em;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.proj_1 img{
+    position: relative;
+    bottom: 0.5em;
+    color: white;
+}
+.proj_1 button{
+    float: center;
+    position: relative;
+    top: 2.5em;
+    color: #5702FE;
+    background-color: #00FFA2;
+    border: none;
+    outline: 0;
+    padding: 12px;
+    width: 100% ;
+}
+.proj_1 button:hover{
+    opacity: 0.9;
+}
+#proj_1_m{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+/* instagram photo*/
+.instagram{
+    margin-top: 2em; 
+}
+.photo_1{
+    float: left;    
+}
+.photo_1 img{
+    position: relative;
+    color: white;
+}
+
+/* footer */
+.footer{
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    height: 600px;
+     }
+.f-menu{
+    position: relative;
+    top: 3em;
+    left: 5em;
+      }
+.f-menu a{
+    background-color: none;
+    text-align: left;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: black;
+    display: block;
+    text-decoration: none;
+      }
+.f-help{
+    position: relative;
+    bottom: 6.2em;
+    left: 20em;
+      }
+.f-help a{
+    background-color: none;
+    text-align: left;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: black;
+    display: block;
+    text-decoration: none;
+     }
+.f-news{
+    text-align: right;
+    position: relative;
+    bottom: 11.7em;
+    right: 10em;
+    font-size: 16px;
+      }
+.f-news a{
+    background-color: none;
+    text-align: right;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: black;
+    display: block;
+    text-decoration: none;
+      }
+#news{
+    width: 20em;
+    height: 2.5em;
+    position: relative;
+    top: 1.2em;
+    }
+#btn{
+    width: 8em;
+    height: 2.9em;
+    color: #00FFA2;
+    background-color: #5702FE;
+    border: none;
+    outline: 0;
+    position: relative;
+    top: 1.2em;
+    }
+#praiv{
+    text-align: left;
+    position: relative;
+    bottom: 4.8em;
+    left: 5em;
+    font-size: 1.3em;
+      }
+.f-social{
+    text-align: right;
+    position: relative;
+    bottom: 9.5em;
+    right: 10em;
+    font-size: 16px;
+      }
+.f-social a{
+    background-color: none;
+    text-align: right;
+    font-size: 2.2em;
+    color: #5702FE;
+    text-decoration: none;
+    margin-right: 0.8em;
+      }
